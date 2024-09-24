@@ -1,0 +1,99 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  height: 620px;
+  width: 400px;
+  border-radius: 10px;
+}
+.card img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 40px 0px 0px 140px;
+}
+.content h2 {
+  color: white;
+  font-family: Inter;
+  margin: 25px 0px 0px 130px;
+}
+.content h5 {
+  color: hsl(75, 94%, 57%);
+  font-size: 16px;
+  margin: 7px 0px 0px 140px;
+  font-size: 13px;
+}
+
+.content p {
+  color: white;
+  margin: 30px 0px 10px 80px;
+  font-size: 16px;
+}
+.social h5 {
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  height: 35px;
+  width: 335px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0px;
+  line-height: 2.5;
+}
+.social {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 400px;
+  row-gap: 0px;
+  justify-items: center;
+  margin-top: 25px;
+}
+
+.github :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.frontend :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.twitter :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.linkedin :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.insta :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+@media (min-width: 451px) and (max-width: 1440px),
+  (min-height: 941px) and (max-height: 1079px) {
+  .card {
+    transform: translate(550px, 135px);
+  }
+}
+@media (max-width: 450px) and (max-height: 940px) {
+  .card {
+    transform: translate(0px, 100px);
+  }
+}
+
+@media (min-height: 1080px), (min-width: 1441) {
+  .card {
+    transform: translate(730px, 200px);
+  }
+}
